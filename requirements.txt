@@ -1,0 +1,6 @@
+asyncio
+aiogram
+pydantic
+httpx
+python-dotenv
+docker
