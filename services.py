@@ -31,7 +31,7 @@ class MonitoringService:
         return f'{container_name} work status {status}'
 
     @staticmethod
-    def get_stay_container(container_name: str) -> bool:
+    def get_stay_container(container_name: str = None) ->bool:
         container = DOCKER_CLIENT.containers.get(container_name)
         container_state = container.attrs['State']
         container_is_running = container_state['Status'] == RUNNING
