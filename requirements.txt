@@ -1,6 +1,7 @@
 asyncio
-aiogram
+#aiogram
 pydantic
 httpx
 python-dotenv
 docker
+pyTelegramBotAPI
